@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "Socket_client.h"
-
 Socket_client::Socket_client(std::string host, std::string port) : Socket_base(host,port)  {
 
 	std::cout << "Inisializing Client" << std::endl;

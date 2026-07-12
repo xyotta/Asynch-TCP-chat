@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "Socket_base.h"
-
 Socket_base::Socket_base(std::string host, std::string port) {
 	//init WSA
 

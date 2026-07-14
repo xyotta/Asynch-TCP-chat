@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ConsoleApplication1\Socket_base.cpp" />
-    <ClCompile Include="..\ConsoleApplication1\Socket_client.cpp" />
-    <ClCompile Include="..\pch.cpp" />
+    <ClCompile Include="..\Socket_base.cpp" />
+    <ClCompile Include="..\Socket_client.cpp" />
     <ClCompile Include="main_client.cpp" />
+    <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ConsoleApplication1\Socket_base.h" />
-    <ClInclude Include="..\ConsoleApplication1\Socket_client.h" />
-    <ClInclude Include="..\pch.h" />
+    <ClInclude Include="..\Socket_base.h" />
+    <ClInclude Include="..\Socket_client.h" />
+    <ClInclude Include="pch.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

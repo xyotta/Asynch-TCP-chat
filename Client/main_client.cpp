@@ -1,5 +1,5 @@
 #include "pch.h"
-
+#include "Socket_client.h"
 int main() {
 	std::string port,host;
 	std::cout << "--CLIENT--" << std::endl;

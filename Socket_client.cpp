@@ -50,7 +50,7 @@ void Socket_client::start() {
 		std::getline(std::cin, msg);
 		if (msg == "exit") break;
 		std::cout << "you: " << msg << std::endl;
-		if (int result = send(socket_fd, msg.c_str(), msg.size(), 0); result == SOCKET_ERROR) {
+		if (int result = send(socket_fd, msg.c_str(), (int)msg.size(), 0); result == SOCKET_ERROR) {
 			std::cout << "server discontinued" << std::endl;
 			break;
 		}

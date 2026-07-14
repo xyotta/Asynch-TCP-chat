@@ -18,7 +18,7 @@ int main() {
 		port = "21801";
 	}
 	if (host.empty()) {
-		port = "::1";
+		host = "::1";
 	}
 
 
@@ -30,6 +30,7 @@ int main() {
 	}
 	catch (std::exception& e) {
 		std::cout << "Error: " << e.what() << std::endl;
+		std::cin.get();
 	}
 	return 0;
 }
